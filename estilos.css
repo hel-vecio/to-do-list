@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap');
+body{
+    background:url(img/bg.jpg);
+}
+.title{
+    color: #fff;
+    font-size: 42px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-family: 'Julius Sans One', sans-serif;
+}
+.main-content{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+.fa-plus{
+    color: #fff;
+    border: solid 1px white;
+    padding: 16px;
+    border-radius: 50%;
+    font-size: 20px;
+    transition: .2s;
+    cursor:pointer;
+}
+.fa-plus:hover {
+    color: #000;
+    border: solid 1px white;
+    padding: 18px;
+    border-radius: 50%;
+    font-size: 23px;
+    background: #fff;
+    transition: .2s;
+}
+.centeritems{
+    display: flex;
+    justify-content: center;
+}
+.task{
+    background: rgb(255 255 255 / 98%);
+    max-height: 58px;
+    padding: 15px;
+    width: 50%!important;
+    margin: 0 auto;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+.swal2-styled.swal2-confirm {
+    border: 0;
+    border-radius: 0.25em;
+    background: initial;
+    background-color: #7066e0;
+    color: #fff!important;
+    font-size: 1em;
+    width: 90px!important;
+    min-height: 43px;
+}
+.fa-ellipsis-v{
+    font-size: 22px;
+    color: #bebebe;
+}
+.tasktitle {
+    font-size: 18px;
+}
+.alignitems{
+    display: flex;
+    align-items: center;
+}
+.fa-clock{
+    font-size: 26px;
+    color: #bebebe;
+    margin-top: 1px;
+}
+.time{
+    margin: -2.3px 19px 0px 8px;
+    font-size: 20px;
+    color: #a6a6a6;
+}
+.fa-check:hover{
+    font-size: 26px;
+    color: #07f207;    
+    transition: ease all .2s;
+}
+.fa-check{
+    font-size: 24px;
+    color: #bebebe;    
+    transition: ease all .2s;
+    margin-left: 20px;
+    cursor:pointer;
+}
+.fa-trash-alt{
+    font-size: 24px;
+    color: #bebebe;    
+    transition: ease all .2s; 
+    margin-left: 20px;
+    cursor:pointer;
+}
+.fa-trash-alt:hover{
+    color:#ff0000;
+    font-size: 26px;
+    transition: ease all .2s;
+}
+@media (max-width:992px){
+    .task{
+        width:100%!important;
+    }
+}
+.none{
+    color: #fff;
+    text-align: center;
+}
+.titulo-form{
+    text-align: center;
+    color: #000;
+    font-size: 24px;
+}
+.form-novatarefa {
+    background: #fff;
+    width: 50%;
+    padding: 40px;
+    border-radius: 10px;
+    display: none;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 25%;
+    max-height: 280px;
+    height: 250px;
+}
+.form-novatarefa .col-md-6, .form-novatarefa .col-md-6 input{
+    text-align:center;
+}
+button[value="Criar nova tarefa"]{
+    margin: 0 auto;
+    width: 30%;
+    height: 30px;
+    color: #000!important;
+    border-radius: 5px;
+}
+.swal2-styled.swal2-confirm {
+    width: 180px!important;
+}
+.swal2-styled.swal2-cancel {
+    border: 0;
+    border-radius: 0.25em;
+    background: initial;
+    background-color: #6e7881;
+    color: #fff;
+    font-size: 1em;
+    width: 180px!important;
+    margin: 20px;
+    color: #fff!important;
+    height: 42px;
+}
+input[type="time"]{
+    height: 30px;
+}
+.form-novatarefa .col-md-12:nth-child(2){
+    margin-top: 15px;
+}
